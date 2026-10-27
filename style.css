@@ -4,6 +4,7 @@ body {
     color: #ffffff;            
 }
 
+
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -13,8 +14,12 @@ body {
     border-radius: 5px;        
     font-weight: bold;
     margin-top: 5px;
+    transition: all 0.2s ease-in-out; 
 }
 
+
 .button:hover {
-    background-color: #444444;
+    background-color: #e10048; 
+    transform: translateY(-3px);     
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
 }
